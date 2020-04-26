@@ -3,8 +3,10 @@ This is a python server using [Tornado](https://www.tornadoweb.org/en/stable/) f
 
 ## Instruction
 From terminal, run:-
-```cd src```
-```python3 Server.py```
+```
+cd src
+python3 Server.py
+```
 
 You'll see:
 ```
