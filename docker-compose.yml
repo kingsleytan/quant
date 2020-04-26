@@ -1,0 +1,12 @@
+version:  '3.7'
+services:
+  alpr:
+    image: quant:latest
+    container_name: quant
+    build:
+      context: .
+    volumes:
+      - ${QUANT_LOGDIR}:/app/src/logs
+    restart: always
+    ports:
+      - 8083:8083
